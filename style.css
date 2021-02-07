@@ -1,0 +1,1013 @@
+html{
+    font-family:        Montserrat;
+    font-weight:        600;
+    font-size:          16px;
+    background-color:   white;
+    color:              black;
+    scroll-behavior:    smooth;
+    overflow-x:         hidden;
+    width:              100vw;
+}
+
+body{
+    overflow-x:         hidden;
+    width:              100%;
+    max-width:          100vw;
+}
+
+*{
+    padding:            0;
+    margin:             0;
+}
+
+ul{
+    position:           absolute;
+    right:              80px;
+    top:                32px;
+    width:              600px;
+    list-style-type:    none;
+    display:            flex;   
+}
+
+li{
+    display:            inline-block;
+    margin:             24px 56px auto auto;
+    font-size:          1.3rem;
+    font-weight:        600;
+    transform:          translateY(-6px);
+    text-shadow:        #7a66fc00;
+    text-decoration:    none;
+    transition:         text-shadow 0.3s;
+}
+
+li:hover{
+    text-shadow:        0px 0px 24px #a25bff;
+}
+
+#secondline{
+    margin:             50vw;
+    display:            inline;
+}
+
+a{
+    text-decoration:    none;
+}
+
+.mainpic{
+    position:           absolute;
+    z-index:           -50;
+    margin:             116px auto auto 48vw;
+    width:              1248px;
+}
+
+.logo{
+    margin:             40px 6px auto 14px;
+    display:            inline;
+}
+
+.shadow{
+    text-shadow:        0 0 24px rgba(0, 0, 0, 0.4);
+}
+
+.white{
+    color:              white;
+}
+
+h1{
+    margin-top:        -24px;
+    margin-left:        140px;
+    margin-right:       auto;
+    width:              480px;
+    font-size:          5rem;
+    text-align:         left;
+}
+
+h2{
+    font-weight:        300;
+    letter-spacing:     5px;
+    word-spacing:       5px;
+    text-align:         left;
+    margin:             44px 156px 40px;
+    font-size:          1.24rem;
+}
+
+h3{
+    text-align:         left;
+    margin:             24px 156px;
+    width:              480px;
+    font-size:          1.5rem;
+}
+
+h4{
+    font-size:          1.5rem;
+    margin:             32px 32px auto 64px;
+    text-align:         left;
+}
+
+h5{
+    display:            inline;
+    text-align:         left;
+    font-size:          1.3rem;
+}
+
+h6{
+    text-align:         left;
+    margin-left:        156px;
+    width:              480px;
+    font-size:          3rem;
+    z-index:            5;
+}
+
+.infoPara{
+    font-size:          1.2rem;
+    width:              267px;
+    margin-top:         16px;
+    margin-left:        63px;
+    transition:         color 0.5s;
+}
+
+.circleRectangleText{
+    text-align:         left;
+    margin:             32px 156px 0;
+    width:              636px;
+}
+
+.contactme{
+    text-align:         left;
+    margin:             auto 126px;
+}
+
+::placeholder{
+    color:              rgba(0, 0, 0, 0.2);
+}
+
+.textbox{
+    border-radius:      5px 0 0 5px;
+    border:             none;
+    width:              300px;
+    height:             44px;
+    display:            inline;
+    margin:             16px auto 104px 14px;
+    box-shadow:         0px 0px 32px rgba(0, 0, 0, 0.06);
+    padding:            0 16px 2px;
+}
+
+input:focus {
+    color:              red;
+    outline:            2px solid #F0883F;  
+    box-shadow:         0px 0px 24px rgba(255, 166, 0, 0.1);
+   }
+   input.visited {
+     color:             red;
+    outline:            2px solid #F0883F;  
+    box-shadow:         0px 0px 24px orange;
+   }
+
+.submitbutton{
+    background-image:           linear-gradient(90deg, #F0883F, #fdd871);
+    border:                     none;
+    color:                      white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius:    5px;
+    text-decoration:            none;
+    font-size:                  16px;
+    font-family:                Montserrat;
+    font-weight:                500;
+    padding:                    12px 24px 16px 16px;
+    display:                    inline;
+    margin-left:               -10px;
+    box-shadow:                 0px 0px 24px rgba(0, 0, 0, 0.05);
+    transform:                  translateY(-3px);
+    height:                     50px;
+}
+
+.submitbutton:hover{
+    cursor:             pointer;
+}
+
+.header{
+    margin-bottom:      180px;
+}
+
+p{
+    font-size:          18px;
+    font-weight:        300;
+    text-align:         left;
+    width:              480px;
+    margin:             32px auto 112px;
+    z-index:            1;
+}
+
+.videoContact{
+    margin:             80px auto;
+    display:            flex;
+    gap:                32px;
+    width:              96vw;
+    flex-wrap:          wrap;
+    justify-content:    space-around;
+}
+
+.video{
+    display:            inline;
+    margin-top:         24px auto 112px 140px;
+    width:              600px;
+    cursor:             pointer;
+}
+
+.contactus{
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    center;
+    text-align:         center;
+    margin:             0 auto;
+}
+
+.contactH2{
+    text-align:         center;
+    padding:            0;
+    margin:             0 auto 32px 0;
+}
+
+.contactH6{
+    text-align:         left;
+    padding:            0;
+    margin:             0;
+}
+
+.contactusbutton{
+    margin-top:        -16px;
+    z-index:            0;
+}
+
+.date{
+    margin-left:        32px;
+    display:            inline;
+    font-size:          1rem;
+    transition:         all 1s;
+}
+
+.team{
+    display:                grid;
+    margin:                 24px auto 140px;
+    width:                  80vw;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows:     1fr 1fr 1fr ;
+    column-gap:             4vw;
+    row-gap:                16px;
+}
+
+.teambox{
+    box-shadow:             0px 0px 24px rgba(0, 0, 0, 0.05);
+    border-radius:          5px;
+    margin-top:             32px;
+    height:                 120px;
+    min-width:              385px;
+}
+
+.teambox:hover{
+    background:             linear-gradient(30deg, rgba(108,99,255,1) 0%, rgba(120,102,253,1) 53%, rgba(199,124,241,1) 100%);
+    color:                  white;
+    box-shadow:             0px 0px 40px rgba(120, 102, 253, 0.24);
+}
+
+.teampic{
+    border-radius:          4px;
+    width:                  120px;
+}
+
+.teampic, .teamname, .teamrole{
+    display:                inline;
+}
+
+.teamname{
+    font-size:              1.3rem;
+    position:               absolute;
+    margin:                 24px 40px;
+}
+
+.teamrole{
+    position:               absolute;
+    transition:             color 0.5s;
+    margin:                 56px 40px auto 38px;
+}
+
+.founder{
+    margin:                 56px 40px;
+    transition:             color 0.5s;
+}    
+
+.calendaricon{
+    display:                inline;
+    text-align:             left;
+    margin-top:             32px;
+    margin-left:            36px;
+    width:                  16px;
+}
+
+.subscribe{
+    text-align:             center;
+    margin:                 auto auto;
+    font-size:              1.5em;
+    color:                  white;
+}
+
+.subscribeBox{
+    display:                flex;
+    width:                  100%;
+    height:                 213px;
+    margin-bottom:          100px;
+    background-color:       #6C63FF;
+}
+
+.contactVisit{
+    text-align:             center;
+    margin:                 auto;
+}
+
+.white{
+    color:                  black;
+}
+
+#secondline{
+    margin-left:            0vw;
+    display:                inline;
+}
+
+
+.logo{
+    margin-left:            72px;
+    margin-top:             45px;
+}
+
+.shadow{
+    text-shadow:            0 0 24px rgba(0, 0, 0, 0);
+}
+
+.hidden{
+    display:                hidden;
+}
+
+.hidden{
+    display:                block;
+}
+
+header{
+    margin-top:             200px;
+}
+
+.container{
+    display:                grid;
+    grid-template:          1fr 1fr / 1fr 1fr 1fr;
+    gap:                    96px 32px;
+    width:                  90vw;
+    margin:                 0 auto;
+}
+
+.subfolder{
+    margin-top:             32px;
+    border-radius:          5px;
+    width:                  368px;
+    height:                 256px;
+}
+
+.subfolder:hover{
+    background-image:       linear-gradient(30deg, rgba(108,99,255,1) 0%, rgba(120,102,253,1) 53%, rgba(199,124,241,1) 100%);
+    color:                  white;
+    box-shadow:             0px 0px 40px rgba(120, 102, 253, 0.24);
+}
+
+.events{
+    text-align:             center;
+    width:                  80vw;
+    display:                grid;
+    column-gap:             4vw;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows:     1fr 1fr 1fr;
+    margin:                -32px auto;
+}
+
+.eventholder{
+    box-shadow:             0px 0px 24px rgba(0, 0, 0, 0.05);
+    border-radius:          5px;
+    text-align:             center;
+    padding:                26px 16px;
+    margin-bottom:          32px;
+    min-width:              302px;
+}
+
+.eventholder:hover{
+    background:             linear-gradient(30deg, rgba(108,99,255,1) 0%, rgba(120,102,253,1) 53%, rgba(199,124,241,1) 100%);
+    color:                  white;
+    box-shadow:             0px 0px 40px rgba(120, 102, 253, 0.24);
+}
+
+.eventsText{
+    text-align:             left;
+    margin-left:            156px;
+}
+
+.postimage{
+    display:                block;
+    width:                  100%;
+    border-radius:          5px 5px 0px 0px;
+}
+
+.postdate{
+    display:                inline;
+    margin-left:            10px;
+    font-size:              1.1rem;
+}
+
+.postcontent{
+    display:                block;
+    text-align:             left;
+    font-size:              1.8rem;
+    margin-top:             32px;
+    margin-left:            34px;
+    width:                  83%;
+}
+
+.postreadmore{
+    display:                block;
+    margin-top:             112px;
+    padding-bottom:         24px;
+    text-align:             center;
+}
+
+.postsText{
+    text-align:             left;
+    margin-left:            156px;
+}
+
+.posts{
+    display:                flex;
+    justify-content:        space-between;
+    width:                  84vw;
+    margin:                 0 auto 80px;
+    flex-wrap:              wrap;
+    gap:                    64px 16px;
+}
+
+.postbox{
+    display:                inline-block;
+    box-shadow:             0px 0px 24px rgba(0, 0, 0, 0.05);
+    max-width:              260px;
+    border-radius:          5px;
+    text-align:             left;
+}
+
+.postreadmore:hover{
+    color:                  rgba(108,99,255,1);
+    text-shadow:            0px 0px 24px rgba(132, 125, 255, 0.25);
+}
+
+.postbox:hover{
+    color:                  rgb(110, 20, 161);
+    box-shadow:             0px 0px 40px rgba(120, 102, 253, 0.25);
+}
+
+/* Footer */
+.footerButton{
+    margin:                 0 -3px 64px;
+}
+
+footer{
+    display:                flex;
+    justify-content:        space-around;
+    flex-wrap:              wrap;
+}
+
+footer a{
+    font-weight:            300;
+}
+
+.footerSection{     
+    display:                flex;
+    flex-direction:         column;
+    align-items:            center;
+    margin-bottom:          128px;
+    width:                  200px;
+    padding:                0 32px;
+}
+
+.contactFooter #adress{
+    width:                  267px;
+}
+
+.contactFooter #mail{
+    width:                  214px;
+}
+
+.footerHeader{
+    width:                  90px;
+    font-size:              1.4rem;
+    color:                  #786eff;
+}
+
+.footerContent{
+    width:                  200px;
+    font-size:              1.4rem;
+    margin-bottom:          64px;
+    text-align:             center;
+}
+
+/* Touchscreens */
+
+@media (hover: none) and (pointer: coarse) {
+    .teambox{
+        background:         linear-gradient(30deg, rgba(108,99,255,1) 0%, rgba(120,102,253,1) 53%, rgba(199,124,241,1) 100%);
+        color:              white;
+    }
+
+    .subfolder{
+        background-image:   linear-gradient(30deg, rgba(108,99,255,1) 0%, rgba(120,102,253,1) 53%, rgba(199,124,241,1) 100%);
+        color:              white;
+        box-shadow:         0px 0px 40px rgba(120, 102, 253, 0.24);
+    }
+
+    .eventholder{
+        background:         linear-gradient(30deg, rgba(108,99,255,1) 0%, rgba(120,102,253,1) 53%, rgba(199,124,241,1) 100%);
+        color:              white;
+        box-shadow:         0px 0px 40px rgba(120, 102, 253, 0.24);
+    }
+    
+    .postreadmore{
+        color:              rgba(108,99,255,1);
+    }
+}
+
+/* Other Responsiveness */
+
+@media screen and (max-width: 1159px){
+    .videoContact{
+        margin:             80px auto;
+        display:            block;
+        gap:                32px;
+        width:              72vw;
+    }
+
+    .contactH2{
+        position: a;
+        text-align:         left;
+        padding:            0;
+        margin:             32px auto 32px 0;
+    }
+    
+    .video{
+        display:            inline;
+        margin-top:         24px auto 112px 140px;
+        width:              78vw;
+    }
+    
+    .contactus{
+        display:            flex;
+        flex-direction:     column;
+        justify-content:    center;
+        text-align:         center;
+        margin:             0 auto;
+        width:              78vw;
+    }
+
+    .contactText{
+        margin-left:        0;
+    }
+
+    .contactusbutton{
+        position:           absolute;
+        padding-top:        104px;
+        margin-top:         0;
+        left:               7vw;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .container{
+        display:            grid;
+        grid-template:      1fr 1fr 1fr / 1fr 1fr;
+        gap:                96px 16px;
+        width:              70vw;
+        margin:             0 auto;
+    }
+
+    .subfolder{
+        margin-top:         32px;
+        border-radius:      5px;
+        width:              340px;
+        height:             224px;
+    }
+
+    h4{
+        font-size:          1.5rem;
+        margin:             16px 0;
+        text-align:         left;
+    }
+    .infoPara{
+        margin:             0;
+    }
+
+    .center{
+        width:              280px;
+        text-align:         center;
+        position:           relative;
+        margin:             0 auto;
+    }
+
+    .mainpic{
+        margin:             0;
+        top:                24vh;
+        right:              -38vw;
+        width:              1000px;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .mainpic{
+        margin:             0;
+        top:                24vh;
+        right:             -42vw;
+        width:              900px;
+    }
+}
+
+@media screen and (max-width: 1056px){
+    .mainpic{
+        top:                12vh;
+        right:              -196px;
+        margin:             0 auto;
+        width:              1250px;
+        text-align:         center;
+    }
+
+    h1, #firstH2{
+        margin:             auto;
+        text-align:         center;
+        color:              white;
+        text-shadow:        0 0 32px rgba(0, 0, 0, 0.5);
+    }
+
+    #firstPara{
+        margin:             auto;
+        text-align:         center;
+        color:              white;
+        text-shadow:        0 0 64px rgba(0, 0, 0, 0.7);
+    }
+
+    .contactme{
+        position:           absolute;
+        left:               0;
+        right:              0;
+        margin:             32px auto;
+        width:              474px;
+    }
+
+    .firstSectionHeaders{
+        margin-top:         320px;
+    }
+    h2, h3, h4, h5, h6, .infoPara, .contactH6, .contactText, .eventsText{
+        hyphens:            unset;
+        text-align:         center;
+    }
+    .contactH6, h6{
+        margin:             0 auto;
+    }
+
+    .contactH2, .contactText{
+        text-align:         center;
+        margin:             32px auto;
+    }
+
+    .contactusbutton{
+        left:               0;
+        right:              0;
+        margin:             64px auto;
+    }
+
+    .eventsIntro{
+        margin-top:         128px;
+    }
+    
+    .video{
+        width:              72vw;
+    }
+
+    .circleRectangleText, .eventsText, .postsText{
+        text-align:         center;
+        left:               0;
+        right:              0;
+        margin:             32px auto 64px;
+    }
+
+    ul{
+        right:              32px;
+        width:              520px;
+    }
+
+    li{
+        margin-right:       32px;
+    }
+}
+
+@media screen and (max-width: 933px){
+    .posts{
+        justify-content:        space-around;
+    }
+}
+
+@media screen and (max-width: 933px){
+    .container{
+        display:            flex;
+        flex-direction:     column;
+        gap:                0;
+        width:              300px;
+        margin:             0 auto;
+    }
+
+    .subfolder{
+        width:              300px;
+        height:             280px;
+    }
+
+    ul{
+        width:              520px;
+    }
+
+    .team{
+        margin:             24px auto 64px;
+        width:              48vw;
+        min-width:          440px;
+        display:            flex;
+        flex-direction:     column;
+        align-items:        center;
+        column-gap:         4vw;
+        row-gap:            0;
+    }
+}
+
+@media screen and (max-width: 845px){
+    .logo{
+        margin-left:        32px;
+        margin-top:         45px;
+    }
+
+    ul{
+        width:              380px;
+        flex-wrap:          wrap;  
+        right:              32px;
+    }
+    
+    .secondLine1{
+        margin-top:         28px;
+        margin-right:       0px;
+    }
+
+    .secondLine2{
+        margin-top:         28px;
+        margin-right:       72px;
+    }
+
+    .events{
+        text-align:             center;
+        width:                  80vw;
+        min-height:             320px;
+        grid-template-columns:  1fr;
+        grid-template-rows:     1fr 1fr 1fr 1fr;
+        margin:                 0 auto;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .circleRectangleText, .eventsText, .postsText, .contactText{
+        width:              80vw;
+    }
+}
+
+@media screen and (max-width: 638px){
+    .posts{
+        width:              250px;
+        flex-direction:     column;
+        align-items:        center;
+        gap:                32px 0;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .circleRectangleText, .eventsText, .postsText, .contactText{
+        width:              360px;
+    }
+    
+    li{
+        font-size:          1.1rem;
+        margin-right:       24px;
+    }
+
+    ul{
+        width:              470px;
+        flex-wrap:          nowrap;  
+        right:              0;
+        left:               0;
+        margin:             36px auto;
+    }
+    
+    .secondLine1{
+        margin-top:         26px;
+        margin-right:       24px;
+    }
+
+    .secondLine2{
+        margin-top:         24px;
+        margin-right:       0;
+    }
+
+    .mainpic{
+        top:                4vh;
+        right:             -264px;
+        width:              1200px;
+    }
+
+    h6{
+        width:              380px;
+    }
+    
+    li{
+        display:            none;
+    }
+    
+    .logo{
+        position:           absolute;
+        left:               0;
+        right:              0;
+        margin:             20px auto;
+        width:              160px;
+    }
+
+    .contactusbutton{
+        margin-top:         88px;
+    }
+
+    h2{
+        width:              240px;
+    }
+
+    .usefullInfo{
+        width:              200px;
+        left:               0;
+        right:              0;
+        margin:             0 auto 32px;
+    }
+}
+
+@media screen and (max-width: 527px){
+    .footerSection{
+        margin-bottom:          32px;
+    }
+}
+
+@media screen and (max-width: 476px){
+    .circleRectangleText, .eventsText, .postsText, .contactText{
+        width:              340px;
+    }
+
+    .circleRectangleText{
+        position:           absolute;
+        margin:             16px auto;
+    }
+
+    .container{
+        margin-top:         128px
+    }
+
+    .teamSection{
+        margin-top:        -196px;
+    }
+
+    .postsSection{
+        margin-top:        -180px;
+    }
+
+    .firstSectionHeaders{
+        width:              270px;
+        left:               0;
+        right:              0;
+        margin:             0 auto;
+    }
+
+    h2{
+        width:              240px;
+        left:               0;
+        right:              0;
+        margin:             224px auto 32px;
+    }
+
+    .contactus{
+        width:              340px;
+    }
+
+    .mainpic{
+        top:                4vh;
+        right:             -268px;
+        width:              1070px;
+    }
+
+    h1{
+        width:              333px;
+        font-size:          4rem;
+    }
+
+    #firstPara{
+        margin-top:         32px;
+        width:              380px;
+    }
+
+    .textbox{
+        padding-left:       0;
+        width:              200px;
+    }
+
+    .submitbutton{
+        padding:            10px 20px 14px 14px;
+    }
+
+    .contactme{
+        width:              368px;
+    }
+
+    h6{
+        width:              270px;
+        font-size:          2.2rem;
+    }
+
+    .contactusbutton{
+        margin-top:         64px;
+    }
+
+    .videoContact{
+        flex-direction:     column;
+        align-items:        center;
+        flex-wrap:          wrap;
+    }
+
+    .video{
+        display:            inline;
+        margin-top:         0 auto;
+        width:              75vw;
+    }
+}
+
+@media screen and (max-width: 430px){
+    h3:not(.footerHeader){
+        display:            none;
+    }
+
+    .firstSectionHeaders{
+        margin-top:         320px;
+    }    
+    
+    .videoContact{
+        width:              100vw;
+        flex-direction:     column;
+        align-items:        center;
+        flex-wrap:          wrap;
+    }
+
+    .video{
+        width:              100vw;
+    }
+
+    .team{
+        display:            flex;
+        flex-direction:     column;
+        align-items:        center;
+    }
+
+    .teambox{
+        width:              90vw;
+        min-width:          240px;
+    }
+
+}
+
+@media screen and (max-width: 430px){
+    h1{
+        width:              276px;
+        font-size:          3.3rem;
+    }
+
+    .textbox{
+        width:              160px;
+        height:             40px;
+    }
+
+    .submitbutton{    
+        padding:                    9px 16px 20px 12px;
+        height:                     44px;
+        width:                      128px;
+    }
+
+    .contactme{
+        width: 313px;
+    }
+
+    .firstSectionHeaders{
+        margin-top:         380px;
+    }
+}   
