@@ -709,7 +709,7 @@ footer a{
 
 @media screen and (max-width: 933px){
     .posts{
-        justify-content:        space-around;
+        justify-content:    space-around;
     }
 }
 
@@ -998,13 +998,13 @@ footer a{
     }
 
     .submitbutton{    
-        padding:                    9px 16px 20px 12px;
-        height:                     44px;
-        width:                      128px;
+        padding:            9px 16px 20px 12px;
+        height:             44px;
+        width:              128px;
     }
 
     .contactme{
-        width: 313px;
+        width:              313px;
     }
 
     .firstSectionHeaders{
